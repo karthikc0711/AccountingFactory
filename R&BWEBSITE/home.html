@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Accounting Factory</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    body {
+      /*background: linear-gradient(90deg, white, gray);*/
+      background-color: #fff;
+    }
+
+    body,
+    h1,
+    p {
+      font-weight: normal;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 177px;
+      max-width: 100%;
+      /* padding-right: 15px;
+      padding-left: 15px; */
+    }
+
+    .row:before,
+    .row:after {
+      display: table;
+      content: " ";
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 300;
+      margin: 0 0 20px 0;
+    }
+
+    .lead {
+      font-size: 21px;
+      font-weight: 200;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+
+    .column {
+      float: left;
+      width: 40%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    a {
+      color: #3282e6;
+      text-decoration: none;
+    }
+
+    #header {
+      background: #fff;
+      transition: all 0.5s;
+      z-index: 997;
+      padding: 15px 0;
+      /* box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08); */
+      /* top: 8%; */
+    }
+
+    #header .logo {
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      font-weight: bolder;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    #header .logo a {
+      color: #5fcf80;
+    }
+
+    #header .logo img {
+      max-height: 40px;
+    }
+
+    #footer {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      height: 150px;
+      vertical-align: middle;
+      padding-top: 40px !important;
+    }
+
+    .text {
+      width: 522px;
+      font-size: 32px;
+      font-weight: 500;
+      margin: auto;
+      margin-left: 200px;
+      margin-top: 200px;
+      margin-bottom: 100px;
+    }
+
+    .image1 {
+      width: 100%;
+      margin-left: 100px;
+      padding: 40px;
+    }
+
+    .maintext {
+      width: 200px;
+      color: white;
+      font-weight: 500;
+      line-height: 1.4;
+      font-size: 32px;
+    }
+
+    .card {
+      background-color: black;
+      max-width: 100%;
+      height: 300px;
+      height: fit-content;
+      padding: 10% 30%;
+    }
+
+    @media only screen and (max-width: 900px) {
+      .card {
+        background-color: black;
+        max-width: 100%;
+        height: 300px;
+        height: fit-content;
+        padding: 10% 10%;
+      }
+
+      .maintext {
+        width: 200px;
+        color: white;
+        font-weight: 500;
+        line-height: 1.4;
+        font-size: 16px;
+      }
+
+      .image1 {
+        width: 74%;
+        margin: -8px;
+        padding: 38px;
+      }
+
+      .text {
+        width: 70%;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 10%;
+        /* margin-top: 20px !important; */
+
+      }
+
+      .column {
+        float: left;
+        width: 100%;
+        padding: 5px;
+      }
+
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header" class="fixed-top">
+    <div class="d-flex">
+
+      <h1 class="logo me-auto" style="color: black; text-align: left; float: inline-start;">
+        <a><img src="assets/img/rblogo.jpeg" alt="" style="padding: 20px;"></a>
+      </h1>
+
+    </div>
+  </header>
+  <div class="container text-center" id="error">
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="main-icon text-success"><span class="uxicon uxicon-clock-refresh"></span></div>
+        <h1>Welcome.</h1>
+        <img src="./assets/img/aflogo.jpeg" alt="logo" style="width: 50%; margin-bottom: 100px">
+        <div class="card">
+          <label class="maintext">
+            Established in 2012, the Accounting Factory is a renowned firm specializing in auditing& consultancy, Book
+            Keeping. Management Consultancy, Project Finance, Taxation & Adult.
+          </label>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="assets/img/one.jpeg" alt="" class="image1">
+          </div>
+          <div class="column">
+            <p class="text">Expertise in providing<b>ACCOUNTING SERVICES.</b>  We handle weekly & monthly <b>BOOKKEEPING </b> for
+              clients<b>GLOBALLY.</b> </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<footer id="footer">
+  <div style="text-align: center;">
+    <p style="font-size: 24px;"><b>Contact Us</b></p>
+    <p>Accounting Factory</p>
+    <p>info@afactory.in</p>
+    <p>WA +91 89711 88206</p>
+    <p>1, 14th Cross Rd, 2nd Block, Jaya Nagar East, Jayanagar, Bengaluru, Karnataka 560011</p>
+  </div>
+</footer>
+<footer style="margin-bottom: 30px; margin-top: 30px;">
+  <p>&copy; 2024 Accounting Factory. All rights reserved.</p>
+</footer>
+</html>
